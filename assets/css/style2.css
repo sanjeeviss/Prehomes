@@ -1,0 +1,202 @@
+       
+.custom-select-wrapper {
+  position: relative;
+}
+
+.custom-select {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+.input-box,
+.options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+ /* Selected date */
+ .selected {
+   background-color: #007bff !important;
+   color: #fff;
+ }
+ .modal-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+  padding: 15px 26px ;
+  border-radius: 26px;
+}
+.modal-backdrop {
+  position: fixed;
+  height:100vh;
+  top: 0;
+  opacity: 0.6;
+  left: 0;
+  z-index: 1050;
+  width: 100vw;
+  background-color: #000;
+}
+.modal-title{
+  color: #DAA751;
+  font-size: 32px;
+}
+.co-2{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Custom styles for the dropdown container */
+.dropdown-date {
+  position: relative;
+  display: inline-block;
+}
+
+/* Custom styles for the dropdown button */
+.dropdown-button-1 {
+  font-size: 14px;
+  padding: 13px;
+  border: 1px solid #303b3d;
+  border-radius: 15px;
+  width: 350px;
+  cursor: pointer;
+}
+
+/* Custom styles for the dropdown content */
+.dropdown-content-1 {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1;
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* Custom styles for the dropdown options */
+.dropdown-option {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* Custom hover color for dropdown options */
+.dropdown-option:hover {
+  background-color:#7bc9c6;
+  color: #fff; /* Change the color to your desired hover color */
+}
+
+
+
+
+
+
+
+.padss-1{
+  padding: 20px;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 350px;
+ 
+}
+
+/* Custom styles for dropdown button */
+.dropdown-button-2 {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  border: 1px solid #303b3d;
+ 
+  padding: 13px;
+  cursor: pointer;
+  width: 350px;
+  text-align: left;
+}
+
+/* Custom styles for dropdown content */
+.dropdown-content-2 {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  overflow-y: auto;
+  width: 100%;
+  z-index: 1;
+  padding: 8px;
+}
+
+/* Custom styles for dropdown options */
+.dropdown-option-1 {
+  padding: 8px;
+  cursor: pointer;
+  display: inline-block;
+  border: solid 1px #0086AD;
+  border-radius: 13px;
+  color: #0086AD ;
+}
+
+/* Hover effect for dropdown options */
+.dropdown-option-1:hover {
+  background-color:#0086AD;
+  color: #fff;
+}
+
+
+
+.modal-body-1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #26CB68;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.modal-body-1::after {
+  content: '\2714'; /* Unicode for checkmark symbol */
+  font-size: 100px;
+  color: white;
+}
+
+.modal-header  {
+  border-bottom: none !important;
+  /* You can also add any other styles here */
+}
+.modal-footer {
+  border-top: none !important;
+  
+  /* You can also add any other styles here */
+
+}
+.modal-body{
+
+  border-bottom: none !important;
+}
+
+
